@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/profil.css">
+		<title>Profil</title>
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container">
+				<img src="img/agenda.png" alt="" href="index.html"><a class="navbar-brand" href="index.html">PAK.DE</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav ml-auto">
+						<a class="nav-item nav-link text-light" href="profil.html">Profil</a>
+						<a class="nav-item nav-link btn btn-primary text-light" href="">Keluar</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- Akhir Navbar -->
+		
+		<form action="proseslogin.php" method="post">
+			<div class="container form-group">
+				<div class="warna">
+					<div class="row">
+						<div class="col-sm-12">
+							<h1 class="text-center">Profil</h1>
+							<br>
+							<p>jika ingin edit profil cukup ketik ulang yang ingin diedit, lalu klik edit</p>
+							<br>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<label for="">Nama Lengkap :</label>
+							<br>
+							<input class="form-control" type="text" name="nama" placeholder="Nama Lengkap" required>
+							<br>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<label for="">ID google scholar :</label>
+							<br>
+							<input class="form-control" type="text" name="idgoogle" placeholder="ID Google scholar" readonly>
+							<br>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<label for="">NIK :</label>
+							<br>
+							<input class="form-control" type="number" name="NIK" placeholder="NIK" readonly>
+							<br>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<label for="">Nomor HP :</label>
+							<br>
+							<input class="form-control" type="number"  min="0" max="10" name="nohp" placeholder="Nomor HP" required>
+							<br>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<label for="">Skor angka kredit :</label>
+							<br>
+							<input class="form-control" type="number" name="email" placeholder="Skor angka kredit" readonly>
+							<br>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<label for="">Email :</label>
+							<br>
+							<input class="form-control" type="email" name="email" placeholder="Email" required>
+							<br>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<label for="">Password :</label>
+							<br>
+							<input class="form-control" type="password" name="password" placeholder="Password" required>
+							<br>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<label for="">Ketik ulang password :</label>
+							<br>
+							<input class="form-control" type="password" name="ulangpassword" placeholder="Ketik Ulang Password" required>
+							<br>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-8">
+						</div>
+						<div class="col-sm-4">
+							<button class="btn btn-primary" type="submit" style="width: 100%;">EDIT</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<!-- footer -->
+		<div class="footer bg-dark">
+			<p class="text-center">Dibuat oleh kelompok 7 DPPL Teknik Komputer angkatan 2018/2019</p>
+		</div>
+		<!-- akhir footer -->
+
+		<script src="js/jquery-3.0.0.slim.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+/*Navbar*/
+nav a{
+margin-left: 15px;
+font-family: 'Montserrat Alternates', sans-serif;
+}
+label, h1{
+font-family: viga;
+text-shadow: 0 0.1px 0.1px rgba(0,0,0,1);
+}
+/*konten*/
+.card-body img{
+width: 70%;
+margin-bottom: 30px;
+}
+.container h1{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+/*footer*/
+.footer{
+min-height: 53px;
+position: relative;
+bottom: -148.2px;
+width: 100%;
+}
+.footer p{
+padding-top: 15px;
+font-family: 'Roboto', sans-serif;
+color: white;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+font-size: 13px;
+}

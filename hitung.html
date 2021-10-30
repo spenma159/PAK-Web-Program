@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/profil.css">
+		<title>Perhitungan PAK</title>
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container">
+				<img src="img/agenda.png" alt="" href="index.html"><a class="navbar-brand" href="index.html">PAK.DE</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav ml-auto">
+						<a class="nav-item nav-link text-light" href="profil.html">Profil</a>
+						<a class="nav-item nav-link btn btn-primary text-light" href="">Keluar</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- Akhir Navbar -->
+		
+		<form action="proseslogin.php" method="post">
+			<div class="container form-group">
+				<div class="warna">
+					<div class="row">
+						<div class="col-sm-12">
+							<h1 class="text-center">Perhitungan PAK</h1>
+							<br>
+							<p>Karena aplikasi ini hanya menghitung kasarannya saja maka unuk detail PAK dapat anda lihat di link berikut ini : <a href="https://www.lldikti4.or.id/wp-content/uploads/2019/12/SE-PEMBERITAHUAN-PO-PENILAIAN-AK-TAHUN-2020.pdf">https://www.lldikti4.or.id/wp-content/uploads/2019/12/SE-PEMBERITAHUAN-PO-PENILAIAN-AK-TAHUN-2020.pdf</a></p>
+							<br>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-7">
+							<label for="">Skor pendidikan dan pengajaran :</label>
+						</div>
+						<div class="col-sm-5">
+							<input class="form-control" type="number" name="skorpendidikan" placeholder="skor">
+						</div>
+					</div><br>
+					<div class="row">
+						<div class="col-sm-7">
+							<label for="">Skor penelitian (otomatis) :</label>
+						</div>
+						<div class="col-sm-5">
+							<input class="form-control" type="number" name="skorpenelitian" placeholder="skor">
+						</div>
+					</div><br>
+					<div class="row">
+						<div class="col-sm-7">
+							<label for="">Skor pengabdian masyarakat :</label>
+						</div>
+						<div class="col-sm-5">
+							<input class="form-control" type="number" name="skorpengabdian" placeholder="skor">
+						</div>
+					</div><br>
+					<div class="row">
+						<div class="col-sm-7">
+							<label for="">Penunjang :</label>
+						</div>
+						<div class="col-sm-5">
+							<input class="form-control" type="number" name="skorpenunjang" placeholder="skor">
+						</div>
+					</div><br>
+					<div class="row">
+						<div class="col-sm-8">
+						</div>
+						<div class="col-sm-4">
+							<button class="btn btn-primary" type="submit" style="width: 100%;">MULAI</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<!-- footer -->
+		<div class="footer bg-dark">
+			<p class="text-center">Dibuat oleh kelompok 7 DPPL Teknik Komputer angkatan 2018/2019</p>
+		</div>
+		<!-- akhir footer -->
+		<script src="js/jquery-3.0.0.slim.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
